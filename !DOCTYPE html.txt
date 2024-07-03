@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<h1 id="title">Survey Form</h1>
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+<form id="survey-form">
+  <fieldset>
+  <label id="name-label">Name<input id="name" type="text"/></label>
+  <label id="email-label">Email<input id="email" type="email"/></label>
+  <label id="number-label">Number<input id="number" type="number" min="8" max="11"/></label>
+  </fieldset>
+  <fieldset>
+  <select id="dropdown">
+    <option value="">(select one)</option>
+    <option value="1">News</option>
+    <option value="2">Forum</option>
+  </select>
+  </fieldset>
+  <fieldset>
+  <label for="adult"><input id="adult" type="radio" name="prefrence-type" class="inline" value />Adult</label>
+  <label for="children"><input id="children" type="radio" name="prefrence-type" class="inline" value />Children</label>
+  </fieldset>
+</form>
+</body>
+</html>
